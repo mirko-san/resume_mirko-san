@@ -1,0 +1,58 @@
+skill:
+  JavaScript:
+    Node.js:
+      comment: async/await を使いこなして実現したいことを実装できます
+      sampleSource:
+        - https://github.com/mirko-san/lottery_info
+      businessExperience: true
+    Vue.js:
+      comment: 単一ファイルコンポーネント/vuex/vue-router を理解し実装できます
+      sampleSource:
+        - https://github.com/mirko-san/read_score
+      businessExperience: true
+    Serverless Framework:
+      comment: 作成したNode.jsプロジェクトをAWSにデプロイした経験があります
+      businessExperience: false
+    React:
+      comment: データライフサイクルについて理解しています
+      businessExperience: false
+    jQuery:
+      comment: .animate() を用いたある程度複雑なアニメーションの制御ができます
+      businessExperience: true
+  HTML:
+    comment: HTML5を理解し、インライン要素とブロック要素の違いを理解し実装できます
+    businessExperience: true
+  CSS:
+    comment: BEMを利用した開発経験があります
+    businessExperience: true
+  Python:
+    comment: Beautiful SoupでのHTMLパースを実施した経験があります
+    businessExperience: false
+  AWS:
+    Amazon S3:
+      comment: aws-cliを用いたS3の利用経験があります
+      businessExperience: true
+    Amazon EC2:
+      comment: 社内手順書に沿った複雑な構築経験があります
+      businessExperience: true
+    Amazon Cognito:
+      comment: 業務でサインアップ機能のプロトタイプをいちから実装した経験があります
+      businessExperience: true
+    AWS Lambda:
+      comment: 私生活で個人的なプログラムをデプロイし動作させた経験があります
+      businessExperience: false
+  os:
+    - windows
+    - mac
+    - CentOS
+    - Ubuntu
+  etc:
+    git:
+      comment: git-filter-branch を用いたヒストリーを引き継いだ適切なリポジトリ分割やgit-flowを用いたブランチルールのチームへの提案などの経験があります
+      businessExperience: true
+    shell:
+      comment: xargsを使いこなせます。シェルスクリプトで getopts を用いたオプション解析の実装もできます
+      businessExperience: true
+    Phothoshop:
+      comment: .psdで貰ったデザインデータから適切に画像をスライスすることできます
+      businessExperience: true
