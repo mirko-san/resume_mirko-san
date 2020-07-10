@@ -22,3 +22,8 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### json生成
+```
+node ./src/util/convertSkillYaml2json.js
+```
