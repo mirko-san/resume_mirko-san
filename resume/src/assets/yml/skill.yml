@@ -1,22 +1,25 @@
 skill:
   JavaScript:
-    Node.js:
+    -
+      name: Node.js
       comment: async/await を使いこなして実現したいことを実装できます
-      sampleSource:
-        - https://github.com/mirko-san/lottery_info
+      sampleSource: https://github.com/mirko-san/lottery_info
       businessExperience: true
-    Vue.js:
+    -
+      name: Vue.js
       comment: 単一ファイルコンポーネント/vuex/vue-router を理解し実装できます
-      sampleSource:
-        - https://github.com/mirko-san/read_score
+      sampleSource: https://github.com/mirko-san/read_score
       businessExperience: true
-    Serverless Framework:
+    -
+      name: Serverless Framework
       comment: 作成したNode.jsプロジェクトをAWSにデプロイした経験があります
       businessExperience: false
-    React:
+    -
+      name: React
       comment: データライフサイクルについて理解しています
       businessExperience: false
-    jQuery:
+    -
+      name: jQuery
       comment: .animate() を用いたある程度複雑なアニメーションの制御ができます
       businessExperience: true
   HTML:
@@ -29,16 +32,20 @@ skill:
     comment: Beautiful SoupでのHTMLパースを実施した経験があります
     businessExperience: false
   AWS:
-    Amazon S3:
+    -
+      name: Amazon S3
       comment: aws-cliを用いたS3の利用経験があります
       businessExperience: true
-    Amazon EC2:
+    -
+      name: Amazon EC2
       comment: 社内手順書に沿った複雑な構築経験があります
       businessExperience: true
-    Amazon Cognito:
+    -
+      name: Amazon Cognito
       comment: 業務でサインアップ機能のプロトタイプをいちから実装した経験があります
       businessExperience: true
-    AWS Lambda:
+    -
+      name: AWS Lambda
       comment: 私生活で個人的なプログラムをデプロイし動作させた経験があります
       businessExperience: false
   os:
@@ -47,12 +54,15 @@ skill:
     - CentOS
     - Ubuntu
   etc:
-    git:
+    -
+      name: git
       comment: git-filter-branch を用いたヒストリーを引き継いだ適切なリポジトリ分割やgit-flowを用いたブランチルールのチームへの提案などの経験があります
       businessExperience: true
-    shell:
+    -
+      name: shell
       comment: xargsを使いこなせます。シェルスクリプトで getopts を用いたオプション解析の実装もできます
       businessExperience: true
-    Phothoshop:
+    -
+      name: Phothoshop
       comment: .psdで貰ったデザインデータから適切に画像をスライスすることできます
       businessExperience: true
