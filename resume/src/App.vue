@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
+    <img
+      alt="Vue logo"
+      src="./assets/logo.png"
+    />
     <Skill />
     <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
   </div>
@@ -8,10 +11,10 @@
 
 <script>
 // import HelloWorld from "./components/HelloWorld.vue";
-import Skill from "./components/Skill.vue";
+import Skill from './components/Skill.vue';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     // HelloWorld,
     Skill
