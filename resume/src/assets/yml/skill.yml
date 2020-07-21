@@ -23,12 +23,15 @@ skill:
       comment: .animate() を用いたある程度複雑なアニメーションの制御ができます
       businessExperience: true
   HTML:
+    name: HTML
     comment: HTML5を理解し、インライン要素とブロック要素の違いを理解し実装できます
     businessExperience: true
   CSS:
+    name: CSS
     comment: BEMを利用した開発経験があります
     businessExperience: true
   Python:
+    name: Python3
     comment: Beautiful SoupでのHTMLパースを実施した経験があります
     businessExperience: false
   AWS:
