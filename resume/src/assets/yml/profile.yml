@@ -1,0 +1,19 @@
+personalInfo:
+  name: mirko-san
+  birthDate: 1996-03-05
+  address: 関東
+  contact:
+    - Github: https://github.com/mirko-san
+education:
+  -
+    start: 2011-04
+    end: 2012-08
+    data: 高校入学し転校
+  -
+    start: 2012-09
+    end: 2014-03
+    data: 高校卒業
+  -
+    start: 2014-04
+    end: 2014-11
+    data: 専門学校中退
