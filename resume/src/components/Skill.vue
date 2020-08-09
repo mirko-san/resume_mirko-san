@@ -9,13 +9,25 @@
     </div>
 
     <h3>HTML</h3>
-    <SkillCard :item="skills.HTML"></SkillCard>
+    <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+      <div v-for="item in skills.HTML" :key="item.name">
+        <SkillCard :item="item"></SkillCard>
+      </div>
+    </div>
 
     <h3>CSS</h3>
-    <SkillCard :item="skills.CSS"></SkillCard>
+    <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+      <div v-for="item in skills.CSS" :key="item.name">
+        <SkillCard :item="item"></SkillCard>
+      </div>
+    </div>
 
     <h3>Python</h3>
-    <SkillCard :item="skills.Python"></SkillCard>
+    <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+      <div v-for="item in skills.Python" :key="item.name">
+        <SkillCard :item="item"></SkillCard>
+      </div>
+    </div>
 
     <h3>AWS</h3>
     <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
@@ -25,11 +37,11 @@
     </div>
 
     <h3>os</h3>
-    <ul class="uk-list uk-list-disc">
-      <li v-for="(value, name, index) in skills.os" :key="index">
-        {{ value }}
-      </li>
-    </ul>
+    <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+      <div v-for="item in skills.os" :key="item.name">
+        <SkillCard :item="item"></SkillCard>
+      </div>
+    </div>
 
     <h3>etc</h3>
     <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>

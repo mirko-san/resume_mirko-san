@@ -10,7 +10,7 @@
         {{ item.businessExperience }}
       </span>
     </div>
-    <p class="uk-text-left">{{ item.comment }}</p>
+    <p v-if="item.comment" class="uk-text-left">{{ item.comment }}</p>
     <div v-if="item.sampleSource">
       <span>sample source code</span>
       <span>
